@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# PyCharm - local settings
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
