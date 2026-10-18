@@ -39,7 +39,7 @@ def describe_non_finishes(results: pd.DataFrame) -> None:
     for code, count in results.loc[~classified, "positionText"].value_counts().items():
         print(f"{str(code)}: {count}")
 
-    print("\nstatus TEXT FOR NON-FINISHES (TOP 10")
+    print("\nstatus TEXT FOR NON-FINISHES (TOP 10)")
 
     for text, count in results.loc[~classified, "status"].value_counts().head(10).items():
         print(f"{str(text)}: {count}")
